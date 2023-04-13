@@ -1,0 +1,30 @@
+{
+	"originUrl": "http://127.0.0.1:8080/api-docs",
+	"originType": "SwaggerV3",
+	"templatePath": "./pontTemplate",
+	"surrounding": "typeScript",
+	"outDir": "./src/api",
+	"mocks": {
+		"enable": false
+	},
+	"templateType": "fetch",
+	"prettierConfig": {
+		"arrowParens": "avoid",
+		"bracketSameLine": false,
+		"bracketSpacing": true,
+		"embeddedLanguageFormatting": "auto",
+		"htmlWhitespaceSensitivity": "css",
+		"insertPragma": false,
+		"jsxSingleQuote": false,
+		"printWidth": 120,
+		"proseWrap": "preserve",
+		"quoteProps": "as-needed",
+		"requirePragma": false,
+		"semi": false,
+		"singleQuote": true,
+		"tabWidth": 2,
+		"trailingComma": "none",
+		"useTabs": true,
+		"vueIndentScriptAndStyle": false
+	}
+}

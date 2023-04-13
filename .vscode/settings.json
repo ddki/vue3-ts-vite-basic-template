@@ -1,0 +1,12 @@
+{
+	"files.autoSave": "onFocusChange",
+	"[vue]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"files.eol": "\n",
+	"prettier.printWidth": 120,
+	"editor.formatOnSave": true
+}
