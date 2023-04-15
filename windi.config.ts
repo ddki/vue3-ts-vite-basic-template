@@ -1,8 +1,17 @@
-/** @type {import('tailwindcss').Config} */
-module.exports = {
-	content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
+import { defineConfig } from 'windicss/helpers'
+import formsPlugin from 'windicss/plugin/forms'
+
+export default defineConfig({
+	content: ['./index.html', './src/**/*.{vue,ts,tsx}'],
+	darkMode: 'class',
+	safelist: 'p-3 p-4 p-5',
 	theme: {
 		extend: {
+			colors: {
+				teal: {
+					100: '#096'
+				}
+			},
 			zIndex: {
 				'-1': '-1'
 			},
@@ -26,5 +35,5 @@ module.exports = {
 			}
 		}
 	},
-	plugins: []
-}
+	plugins: [formsPlugin]
+})

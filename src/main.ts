@@ -4,6 +4,9 @@ import { createPinia } from 'pinia'
 import App from './App.vue'
 import router from './router'
 
+import 'virtual:windi.css'
+// enable windi-devtools
+import 'virtual:windi-devtools'
 import './assets/styles/main.css'
 
 import ElementPlus from 'element-plus'
