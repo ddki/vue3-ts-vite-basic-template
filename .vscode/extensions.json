@@ -1,0 +1,10 @@
+{
+	"recommendations": [
+		"vue.vscode-typescript-vue-plugin",
+		"esbenp.prettier-vscode",
+		"vue.volar",
+		"jasonhzq.vscode-pont",
+		"editorconfig.editorconfig",
+		"voorjaar.windicss-intellisense"
+	]
+}
